@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Desafio Calculando el total</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
+  <body>
+    <div class="color">
+      <button
+        onclick="
+      card = document.querySelector('.card')
+      card.style.backgroundColor='white'
+      card.style.color='black'
+      "
+      >
+        Cambiar Color De Tarjeta
+      </button>
+      <script src="./asset/js/js.js"></script>
+    </div>
+
+    <div class="card">
+      <div class="img-card"></div>
+      <p>Laptop Gamer <span class="marca">______</span>.</p>
+      <script>
+        const nombreSpan = document.querySelector("p .marca");
+        nombreSpan.innerHTML = "AMD";
+      </script>
+      <span>valor inicial: $</span>
+      <p id="valor-inicial">400000</p>
+      <button id="suma">+</button>
+      <button id="resta">-</button>
+      <span id="cantidad">0</span>
+    </div>
+    <div></div>
+    <div>
+      <span class="total">Total: $</span>
+      <p class="valor" id="total">0</p>
+    </div>
+  </body>
+</html>

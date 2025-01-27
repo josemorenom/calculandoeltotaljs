@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #d1d5ca;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+.boton {
+  display: flex;
+  color: #360be2;
+  background-color: yellow;
+  text-align: start;
+}
+.card {
+  color: rgba(255, 255, 255, 0.931);
+  width: 280px;
+  height: 470px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.692);
+  background: #707a5e;
+  padding: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.card .img-card {
+  height: 100px;
+  background-image: url("/asset/imgs/laptop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card input {
+  width: 80%;
+  border-radius: 5px;
+  border: none;
+  padding: 3px 10px;
+}
+
+.card button {
+  background: #190be2;
+  color: white;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.total {
+  display: flex;
+  margin-left: 20px;
+}
+.valor {
+  margin-left: 40px;
+  border-color: blue;
+  border-radius: 5px;
+  background-color: yellow;
+  width: 100px;
+  height: 20px;
+  text-align: center;
+}
